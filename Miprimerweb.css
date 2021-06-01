@@ -1,0 +1,335 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #ddffb4;
+}
+
+.Portada0 {
+    width: 100%;
+    height: 90%;
+    background-image: url(https://www.bungie.net/7/ca//destiny/bgs/new_light/hero_desktop_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0px 0px 200px 200px;
+    position: relative;
+    border: solid 3px rgba(177, 240, 98, 1);
+    margin: 30px 0px;
+}
+
+.Portada0 h1 {
+    
+    font-family: fantasy;
+    color: white;
+    font-size: 11em;
+    opacity: 0.81;
+    -webkit-text-stroke: 2px #292929;
+    text-shadow: 2px 2px 5px black;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Opacidad0 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(0deg, green, white);
+    opacity: 28%;
+    border-radius: 0px 0px 200px 200px;
+}
+
+.Navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    border: 2px solid white;
+    border-radius: 0px 0px 200px 200px;
+    background: rgba(138, 221, 45, 0.2);
+}
+
+.Navegacion {
+    
+    list-style-type: none;
+    display: flex;
+    width: 92%;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.Navegacion li {
+    padding: 0%;
+    margin: 30px;
+    font-family: fantasy;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 3px #B1F062;
+}
+
+.Navegacion li:hover {
+    color: rgb(255, 204, 0);
+    cursor: pointer;
+}
+
+.Navegacion a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.video-contenedor {
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    padding: 1em;
+}
+
+iframe {
+    border-radius: 20px 20px 20px 20px;
+    float: inline-start;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+}
+
+.imagen2 {
+    background-color: rgb(17, 24, 7);
+    background-repeat: repeat;
+    background-position: center;
+    border-radius: 150px 150px 150px 150px;
+    border: solid rgba(177, 240, 98, 1)
+}
+
+.subtitulo0 {
+    font-family: fantasy;
+    font-size: 3em;
+    color: white;
+    opacity: 90%;
+    text-align: center;
+    text-shadow: 2px 2px 5px #86E80B;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.card-seccion0 {
+    font-family: 'Syncopate', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    border: 2px solid #86E80B;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+}
+
+.titulo-seccion {
+    font-family: fantasy;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: #86E80B;
+    text-decoration-style: double;
+    -webkit-text-stroke: 2px #292929;
+    text-shadow: 2px 2px 5px black;
+    opacity: 80%;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.contenido {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.clases {
+    font-display: center;
+    font-family: fantasy;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: #86E80B;
+    text-decoration-style: double;
+    -webkit-text-stroke: 2px #292929;
+    text-shadow: 2px 2px 5px black;
+    opacity: 80%;
+    text-align: center;
+    font-size: 3em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.susclases {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.cartas {
+    width: 35%;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    border-radius: 20px;
+}
+
+.cartas img {
+    width: 60%;
+    border-radius: 5px 5px 20px 20px;
+    border: solid 5px #86E80B;
+}
+
+.cartas h3 {
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    -webkit-text-stroke: 2px #292929;
+    text-shadow: 2px 2px 5px black;
+    font-size: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #86E80B;
+    text-decoration-style: double;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cartas p {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5em;
+}
+
+.contenedordereserva {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.t-reservacion {
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    -webkit-text-stroke: 2px #292929;
+    text-shadow: 2px 2px 5px black;
+    font-size: 6em;
+    text-decoration-line: underline;
+    text-decoration-color: #86E80B;
+    text-decoration-style: double;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0.9;
+}
+
+.contenedordereserva2 {
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    box-shadow: 10px 10px 5px 0px rgba(177, 240, 98, 1);
+    padding: 12%;
+    border-radius: 0px 0px 150px 150px;
+}
+
+.container-input {
+    width: 100%;
+    margin: 11px;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 5px black;
+    font-size: 2.5em;
+    text-decoration-line: underline;
+    text-decoration-color: #86E80B;
+    text-decoration-style: dotted;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container-input input {
+    border-radius: 20px 20px 20px 20px;
+    width: 35%;
+    border: solid 2px springgreen;
+    height: 8%;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.boton-reserva {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+}
+
+.clase-reserva {
+    color: white;
+    -webkit-text-stroke: 2px #292929;
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+    font-family: 'Syncopate', sans-serif;
+    background-color: springgreen;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.clase-reserva:hover {
+    color: rgb(255, 204, 0);
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    margin: 50px 0px;
+    width: 100%;
+    background-color: rgb(17, 24, 7);
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px 70px 0px 0px;
+    border: solid 3px #86E80B;
+}
+
+.redes-sociales i {
+    color: #86E80B;
+    font-size: 2em;
+    width: 3em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.redes-sociales i:hover {
+    color: rgb(255, 204, 0);
+    cursor: pointer;
+}
